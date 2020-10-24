@@ -1,0 +1,203 @@
+body {
+    border: 10px solid black;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+}
+
+#box {   
+    border: 1px solid #0b525b; 
+    text-align: center;
+    font-size: 30px;  height: 168px;
+    height: 277px;
+    width: 355px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+.box-1 {
+    animation-name: color-changing-1;
+}
+
+.box-2 {
+    animation-name: color-changing-2;
+}
+
+.box-3 {
+    animation-name: color-changing-3;
+}
+
+.box-4 {
+    animation-name: color-changing-4;
+}
+
+.box-5 {
+    animation-name: color-changing-5;
+} 
+
+.box-6 {
+    animation-name: color-changing-6;
+} 
+
+.box-7 {
+    animation-name: color-changing-7;
+}
+
+.box-8 {
+    animation-name: color-changing-8;
+}
+
+.box-9 {
+    animation-name: color-changing-9;
+}
+
+.box-10 {
+    animation-name: color-changing-10;
+}
+
+.box-11 {
+    animation-name: color-changing-11;
+}
+
+.box-12 {
+    animation-name: color-changing-12;
+}
+
+.box-13 {
+    animation-name: color-changing-13;
+}
+
+.box-14 {
+    animation-name: color-changing-14;
+}
+
+.box-15 {
+    animation-name: color-changing-15;
+}
+
+
+@keyframes color-changing-1{
+    0% {background-color: #03071e;}
+    25% {background-color: #370617;}
+    50% {background-color: #6a040f;}
+    75% {background-color: #9d0208;}
+    100% {background-color: #d00000;}
+}
+
+@keyframes color-changing-2 {
+    0% {background-color: #dc2f02;}
+    25% {background-color: #e85d04;}
+    50% {background-color: #f48c06;}
+    75% {background-color: #faa307;}
+    100% {background-color: #ffba08;}
+}
+
+@keyframes color-changing-3 {
+    0% {background-color: #081c15;}
+    25% {background-color: #1b4332;}
+    50% {background-color: #2d6a4f;}
+    75% {background-color: #40916c;}
+    100% {background-color: #40916c;}
+}
+
+@keyframes color-changing-4 {
+    0% {background-color: #ffbe0b;}
+    25% {background-color: #fb5607;}
+    50% {background-color: #ff006e;}
+    75% {background-color: #8338ec;}
+    100% {background-color: #3a86ff;}
+}
+
+@keyframes color-changing-5 {
+    0% {background-color: #1b3a4b;}
+    25% {background-color: #272640;}
+    50% {background-color: #0b525b;}
+    75% {background-color: #4d194d;}
+    100% {background-color: #006466;}
+}
+
+@keyframes color-changing-6 {
+    0% {background-color: #5f0f40;}
+    25% {background-color: #9a031e;}
+    50% {background-color: #fb8b24;}
+    75% {background-color: #e36414;}
+    100% {background-color: #0f4c5c;}
+}
+
+@keyframes color-changing-7 {
+    0% {background-color: #000000;}
+    25% {background-color: #14213d;}
+    50% {background-color: #fca311;}
+    75% {background-color: #e5e5e5;}
+    100% {background-color: #ffffff;}
+}
+
+@keyframes color-changing-8 {
+    0% {background-color: #774936;}
+    25% {background-color: #8a5a44;}
+    50% {background-color: #9d6b53;}
+    75% {background-color: #c38e70;}
+    100% {background-color: #deab90;}
+}
+
+@keyframes color-changing-9 {
+    0% {background-color: #6f1d1b;}
+    25% {background-color: #bb9457;}
+    50% {background-color: #432818;}
+    75% {background-color: #99582a;}
+    100% {background-color: #ffe6a7;}
+}
+
+@keyframes color-changing-10 {
+    0% {background-color: #161a1d;}
+    25% {background-color: #660708;}
+    50% {background-color: #a4161a;}
+    75% {background-color: #e5383b;}
+    100% {background-color: #ba181b;}
+}
+
+@keyframes color-changing-11 {
+    0% {background-color: #ff595e;}
+    25% {background-color: #ffca3a;}
+    50% {background-color: #8ac926;}
+    75% {background-color: #1982c4;}
+    100% {background-color: #6a4c93;}
+}
+
+@keyframes color-changing-12 {
+    0% {background-color: #344e41;}
+    25% {background-color: #b9e769;}
+    50% {background-color: #16db93;}
+    75% {background-color: #2c699a;}
+    100% {background-color: #dad7cd;}
+}
+
+@keyframes color-changing-13 {
+    0% {background-color: #f07167;}
+    25% {background-color: #fed9b7;}
+    50% {background-color: #fdfcdc;}
+    75% {background-color: #00afb9;}
+    100% {background-color: #0081a7;}
+}
+
+@keyframes color-changing-14 {
+    0% {background-color: #6b9080;}
+    25% {background-color: #cce3de;}
+    50% {background-color: #d7e3fc;}
+    75% {background-color: #99582a;}
+    100% {background-color: #621708;}
+}
+
+@keyframes color-changing-15 {
+    0% {background-color: #212529;}
+    25% {background-color: #343a40;}
+    50% {background-color: #495057;}
+    75% {background-color: #6c757d;}
+    100% {background-color: #adb5bd;}
+}
+
